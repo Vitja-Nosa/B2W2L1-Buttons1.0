@@ -1,0 +1,29 @@
+.container {
+	width: 600px;
+	height: 600px;
+	position: relative;
+	border: gray 10px solid;
+}
+.button_container {
+	margin: 20px 0 0 20px;
+	position: absolute;
+	font-size: 0;
+}
+button {
+	padding: 10px 30px;
+	background-color: #34cb34;
+	border: none;
+	cursor: pointer;
+	margin-right: 6px;
+}
+button:hover {
+	background-color: #2fb62f;
+}
+#img_bg {
+	margin: 30px 0 0 20px;
+}
+#img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
