@@ -9,31 +9,21 @@ var button_1_clicks = 0;
 var button_2_clicks = 0;
 var button_3_clicks = 0;
 
-function button_1_counting() {
-	button_1_clicks = button_1_clicks + 1;
-}
-function button_2_counting() {
-	button_2_clicks = button_2_clicks + 1;
-}
-function button_3_counting() {
-	button_3_clicks = button_3_clicks + 1;
-}
-
 button_1.addEventListener("click", function(){
 	image_bg.src = "images/bg1.jpg"
 	image.src = "images/1.jpg"
-	button_1_counting()
+	button_1_clicks = button_1_clicks + 1;
 	button_1.textContent = button_1_clicks
 })
 button_2.addEventListener("click", function(){
 	image_bg.src = "images/bg2.jpg"
 	image.src = "images/2.jpg"
-	button_2_counting()
+	button_2_clicks = button_2_clicks + 1;
 	button_2.textContent = button_2_clicks
 })
 button_3.addEventListener("click", function(){
 	image_bg.src = "images/bg3.jpg"
 	image.src = "images/3.jpg"
-	button_3_counting()
+	button_3_clicks = button_3_clicks + 1;
 	button_3.textContent = button_3_clicks
 })
